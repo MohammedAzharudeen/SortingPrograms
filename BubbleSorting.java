@@ -13,6 +13,7 @@ public class BubbleSorting {      //Time Complexity O(n^2)
 					a[i+1] = temp;
 				}
 			}
+			if(flag==1) return;     //for best case O(n)  [already sorted so outer loop won't run]
 		}
 	}
 	
