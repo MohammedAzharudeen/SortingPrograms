@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class InsertionSort {
 	
-	public static void insertionSort(int arr[],int n) {
+	public static void insertionSort(int arr[],int n) {     // Time complexity O(n^2), Space Complexity O(1)
 		int i,j;
 		for(j=1;j<arr.length;j++) {
 			int key = arr[j];
