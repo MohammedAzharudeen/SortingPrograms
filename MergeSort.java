@@ -2,7 +2,7 @@ package SortingPrograms;
 
 import java.util.Scanner;
 
-public class MergeSort {     //most stable sort in all case with time complexity O(n log n)
+public class MergeSort {     
 	
 	public static void merger(int p[],int start,int mid,int end) {
 		int i,j,k,ls = mid-start+1, rs = end-mid;
@@ -28,7 +28,7 @@ public class MergeSort {     //most stable sort in all case with time complexity
 		while(j<rs) p[k++] = ra[j++];     //copy leftover of right array
 	}
 	
-	public static void mergeSort(int a[],int start,int end) {
+	public static void mergeSort(int a[],int start,int end) {     //most stable sort in all case with time complexity O(n log n)
 		if(start < end) {
 			int mid;
 			mid = (start+(end-1))/2;
