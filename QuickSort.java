@@ -1,8 +1,8 @@
 package SortingPrograms;
 
-import java.util.*;
-
-public class QuickSort {
+import java.util.*;                                                          //unstable sorting algorithm with Time Complexity based on Pivot.
+                                                                             //best case [T.C -> O(n log n) & S.C -> O(log n).
+public class QuickSort {                                                     //worst case [T.C -> O(n^2) & S.C -> O(n).
 	
 	static void swap(int[] arr, int i, int j)
 	{
