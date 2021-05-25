@@ -15,4 +15,4 @@ Sorting Algorithms  |    Time complexity   |   Space Complexity
  Selection Sort     |       O(n^2)         |        O(1)
     Merge Sort      |     O(n log n)       |        O(n)
     Quick Sort      |  [B.C] O(n log n)    |      O(log n)
-                    |  [W.C] O(n^2)        |        O(n)
+    Quick Sort      |  [W.C]  O(n^2)       |        O(n)
