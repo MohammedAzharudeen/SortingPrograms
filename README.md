@@ -17,3 +17,7 @@ Sorting Algorithms  |    Time complexity   |   Space Complexity
  Quick Sort         |  [B.C] O(n log n)    |      O(log n)
  Quick Sort         |  [W.C]  O(n^2)       |        O(n)
  Heap Sort          |     O(n log n)       |        O(1)
+ 
+ 
+
+ <h1 align="center">Hope it will be useful!</h1>
