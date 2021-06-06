@@ -6,8 +6,10 @@ public class BubbleSorting {      //Time Complexity O(n^2)
 	public static void bubbleSort(int a[],int n) {
 		int k,i;
 		for(k=0;k<n-1;k++) {
+			int flag = 1;
 			for(i=0;i<n-k-1;i++) {
 				if(a[i]>a[i+1]) {
+					flag = 0;
 					int temp = a[i];     //Swapping
 					a[i] = a[i+1];
 					a[i+1] = temp;
